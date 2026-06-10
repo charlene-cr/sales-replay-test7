@@ -1,0 +1,20 @@
+{
+  "name": "sales-replay-test4",
+  "version": "0.1.0",
+  "description": "A small replay-oriented toolkit used for PR size bucket fixtures.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test",
+    "seed:prs": "node scripts/seed-prs.mjs --owner charlene-cr --repo sales-replay-test4 --count 10"
+  },
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "ledger-summary": "./bin/ledger-summary.mjs"
+  }
+}
