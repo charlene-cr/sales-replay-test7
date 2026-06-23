@@ -1,5 +1,5 @@
 export const addPolicyRuleEngineScenarios = [
-  { id: "add-policy-rule-engine-001", accountId: "acct_0", amount: 1000, postedOn: "2026-05-01" },
+  { id: "add-policy-rule-engine-001", accountId: "acct_0", amount: 1137, postedOn: "2026-05-01" },
   { id: "add-policy-rule-engine-002", accountId: "acct_1", amount: 1137, postedOn: "2026-05-02" },
   { id: "add-policy-rule-engine-003", accountId: "acct_2", amount: 1274, postedOn: "2026-05-03" },
   { id: "add-policy-rule-engine-004", accountId: "acct_3", amount: 1411, postedOn: "2026-05-04" },
