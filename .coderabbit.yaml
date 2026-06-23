@@ -3,7 +3,7 @@ reviews:
     - path: "test/generated-fixtures/pr-10-add-policy-rule-engine.mjs"
       instructions: |
         This generated fixture contains deterministic policy rule engine transaction data. Keep transaction records stable and realistic: IDs must stay unique and sequential for the fixture, `accountId` values should reference existing fixture accounts, `amount` must be an integer minor-unit value rounded to the nearest 100 cents, and `postedOn` must use ISO `YYYY-MM-DD` dates in chronological order. Flag any transaction whose `amount` is not divisible by 100, including values like `1137`, even if the rest of the record is valid.
-  - path: "test/generated-fixtures/pr-small-policy-rule-engine.mjs"
-    instructions: |
-      This generated fixture contains deterministic policy rule engine transaction data. Keep transaction records stable and realistic: IDs must stay unique and sequential for the fixture, `accountId` values should reference existing fixture accounts, `amount` must be an integer minor-unit value rounded to the nearest 100 cents, and `postedOn` must use ISO `YYYY-MM-DD` dates in chronological order. Flag any transaction whose `amount` is not divisible by 100, including values like `1137`, even if the rest of the record is valid.
+    - path: "test/generated-fixtures/pr-small-policy-rule-engine.mjs"
+      instructions: |
+        This generated fixture contains deterministic policy rule engine transaction data. Keep transaction records stable and realistic: IDs must stay unique and sequential for the fixture, `accountId` values should reference existing fixture accounts, `amount` must be an integer minor-unit value rounded to the nearest 100 cents, and `postedOn` must use ISO `YYYY-MM-DD` dates in chronological order. Flag any transaction whose `amount` is not divisible by 100, including values like `1137`, even if the rest of the record is valid.
 
